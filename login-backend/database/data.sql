@@ -1,0 +1,6 @@
+CREATE DATABASE login;
+
+CREATE TABLE users(
+		email VARCHAR(255) PRIMARY KEY,
+	password VARCHAR(255)
+);
